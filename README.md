@@ -60,11 +60,3 @@ Directly download and use the .zip file of project for simple and easy integrati
 - Improve animations and transitions.
 - Implement offline caching.
 
-## Contribution
-
-Feel free to fork, improve, and submit a PR!
-
-## License
-
-MIT License. See `LICENSE` for details.
-
