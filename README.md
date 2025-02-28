@@ -35,19 +35,8 @@ Directly download and use the .zip file of project for simple and easy integrati
       just on the side of "App Transport Security Settings" search 'allow arbitary loads' select it and select value YES.
 
    - Also check if there is only "Alamofire" in 'Link Binary with libraries' inside 'Build phases' in the project,remove any other linked binaries if present.
-   
-
-3. **Set Up API Key:**
-
-   - Create a file `Config.swift` in the project and add:
-     ```swift
-     struct Config {
-         static let apiKey = "http://api.weatherapi.com/v1/forecast.json?key=b94801885e204d72aab141008252702&q=Mumbai&days=7&aqi=no&alerts=no"
-     }
-     ```
   
-
-5. **Run the App:**
+3. **Run the App:**
 
    - Select an iOS Simulator or connected device.
    - Press `Cmd + R` or click the **Run** button in Xcode.
